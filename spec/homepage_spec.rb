@@ -1,9 +1,10 @@
 require 'rspec'
+require 'capybara'
 
 describe "Homepage" do
 
   it 'should show the title' do
-
-    true.should == false
+    homepage = get '/'
+    homepage.title.should eq('hello')
   end
 end

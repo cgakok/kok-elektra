@@ -1,0 +1,124 @@
+.slogan {
+  font-size: 2.3em;
+  color: red;
+  font-family: 'Lobster', cursive;
+  white-space: nowrap;
+  h2 {
+    margin-top: 0.3em;
+  }
+}
+
+img {
+  width: 100%;
+}
+
+.logo-place {
+  float:left;
+}
+
+.name {
+  font-size: 4em;
+  font-family: 'Times';
+  white-space: nowrap;
+  h1 {
+    margin-bottom: 0;
+    margin-top: 0.3em;
+  }
+}
+
+.home {
+  width: 150px;
+  float:left;
+}
+
+.wrapper {
+  width: 100%;
+  background-color: blue;
+}
+
+.content {
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.padding-top {
+  padding-top: 20px;
+}
+
+.border-round-top {
+  border-top: solid #C7C7C7 1px;
+  border-left: solid #C7C7C7 1px;
+  border-right: solid #C7C7C7 1px;
+
+}
+
+.border-sides {
+  border-left: solid #C7C7C7 1px;
+  border-right: solid #C7C7C7 1px;
+}
+
+.rounded-corners-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.rounded-corners-bottom {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.border-round-bottom {
+  border-bottom: solid #C7C7C7 1px;
+  border-left: solid #C7C7C7 1px;
+  border-right: solid #C7C7C7 1px;
+}
+
+.footer {
+  height: 20px;
+}
+
+.navigation {
+  margin-bottom:20px;
+}
+
+.nav-list {
+  list-style-type: none;
+  //width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0;
+
+  li
+  {
+    display:inline;
+    float:left;
+    width:170px;
+  }
+
+  a {
+    display:block;
+    text-decoration: none;
+    color: slategrey;
+    font-size: 1.5em;
+
+  }
+
+
+}
+
+.header-text {
+  float:left
+}
+
+.logo-padding {
+  padding-left:15px;
+}
+
+
+
