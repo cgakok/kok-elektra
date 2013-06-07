@@ -1,1 +1,1 @@
-web: bundle exec ruby website/website.rb -p 3010
+worker: bundle exec ruby website/website.rb -p $PORT
